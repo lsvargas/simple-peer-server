@@ -7,7 +7,7 @@ const { ExpressPeerServer } = require("peer");
 const io = require('socket.io')(server, {
   allowEIO3: true,
   cors: {
-    origin: 'https://peerjs-videocall.vercel.app/',
+    origin: 'https://peerjs-videocall.vercel.app',
     // origin: 'http://localhost:3001',
     credentials: true
   }
